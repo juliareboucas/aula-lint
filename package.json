@@ -1,0 +1,17 @@
+{
+  "name": "clean_code-unifor-2023.2",
+  "version": "1.0.0",
+  "description": "Repositório para exercícios",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "linter" : "eslint ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "eslint": "^9.13.0",
+    "globals": "^15.11.0"
+  }
+}
