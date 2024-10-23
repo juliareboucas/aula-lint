@@ -1,4 +1,4 @@
-let pessoa = { nome: "Maria", idade: 28 };
+const pessoa = { nome: "Maria", idade: 28 };
 
 function verificarMaioridade(pessoa) {
     return pessoa.idade >= 18;

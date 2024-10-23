@@ -1,6 +1,6 @@
-let aluno0 = "João";
-let aluno1 = "Ana";
-let aluno2 = "Carlos";
+const aluno0 = "João";
+const aluno1 = "Ana";
+const aluno2 = "Carlos";
 
 function mostrarNomes() {
     console.log(aluno0);

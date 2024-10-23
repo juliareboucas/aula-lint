@@ -1,7 +1,7 @@
 function realizarPedido(idDoProduto, quantidade) {
     const produto = getProdutoById(idDoProduto); //ok
     if (!produto) {
-        return 'Produto não encontrado';
+        return "Produto não encontrado";
     }
 
     //calculando valor
@@ -18,9 +18,9 @@ function realizarPedido(idDoProduto, quantidade) {
 
     //validacao do pedido
     if(response){
-        return 'Pedido realizado com sucesso';
+        return "Pedido realizado com sucesso";
     }
-    return 'Erro ao realizar pedido';
+    return "Erro ao realizar pedido";
 }
 
 function salvarNoBanco(pedido) {
@@ -29,10 +29,10 @@ function salvarNoBanco(pedido) {
 
 function getProdutoById(idDoProduto){
     const produtoMockado = {
-        nome: 'Produto Mockado',
+        nome: "Produto Mockado",
         id: idDoProduto,
         valor: 100,
-        tipo: 'Produto'
+        tipo: "Produto"
     };
     return produtoMockado;
 }
